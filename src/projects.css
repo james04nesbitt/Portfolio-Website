@@ -1,0 +1,26 @@
+img{
+    width: 10em;
+    height: 8em;
+    padding:1em;
+    border-radius: 10%;
+    float:left;
+}
+.pr{
+    margin-top: 2em;
+    margin-left: 2em;
+    height: 10em;
+    background-color: rgba(128, 128, 128, 0.694);
+    
+    border-radius: 10%;
+}
+.pr:hover{
+    opacity:1;
+    background-color: aqua;
+    transition: 2s ease;
+    color:black;
+    height: 10.5em ;
+}
+ .title{
+    float:left;
+    opacity: 1;
+ }

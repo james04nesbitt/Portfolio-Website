@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+*{
+    margin: 0;
+    margin-right: 0;
+    
+  }
+  body {
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    background-color:black;
+    
+  }
+  .content{
+    margin-left: 2em;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  
+  .project{
+    height: 3em;
+    background-color:cyan;
+    width:9em;
+    border-radius: 20%;
+    
+    
+    color:black;
+  }
+  .project:hover{
+    border-radius:50%;
+    background-color: gold;
+    color: black;
+   
+  }
+  
+  .Intro{
+    height: 700px;
+  }
+  
+  .github{
+    height: 3em;
+    background-color:cyan;
+    width: 9em;
+    border-radius: 20%;
+    color:midnightblue;
+    
+  }
+  
+  .contact{
+    width: 100%;
+    height: 30px;
+    
+    background-color: rgb(0, 0, 0);
+    text-align:right;
+    vertical-align:middle;
+    font-size: 20px;
+    font-family:'FreeMono', monospace;
+    
+  }
+  a:link{
+    text-decoration: none;
+    color:aliceblue;
+  }
+  a:visited{
+    color:aliceblue;
+  }
+  .contact:hover{
+    
+    background-color: rgb(32, 31, 31);
+  }
+  
+  .name{
+    color: rgb(1, 170, 170);
+    margin-top:  .4em;
+  }
+  h1{
+    font-family: 'Andale mono', monospace;
+  
+  }
+  
+  .Intro{
+    padding-bottom: 2em;
+    border-bottom: 10px solid rgb(30, 29, 29);
+    font-size: larger;
+    padding-top: 7em;
+  }
+  
+  .Projects{
+    height: 400px;
+  }
+  
+  .Buttons{
+    display: flex;
+    margin-top: 6em;
+    width: 30%;
+  }
+  
+  .b{
+    flex: 1;
+    
+  }
+  
+  
+  .project, .github{
+    transition:  1s;
+  }
+  
+  .Bio{
+    font-family: 'OCR A Std', monospace;
+    color:white;
+    margin-top: 4em;
+  }
+  .project:hover, .github:hover{
+    border-radius:50%;
+    background-color: gold;
+    color: black;
+   
+  }
+  .i{
+    margin-left: 3em;
+  }
