@@ -13,7 +13,7 @@ export default function Intro(){
             </div>
 
             <div className="b">
-                <form  action="https://github.com/james04nesbitt" class Name>
+                <form  action="https://github.com/james04nesbitt" >
                 <input className="github" type="submit" value="GITHUB"/>
                 </form>
             </div>
