@@ -9,7 +9,7 @@ export default function Intro(){
         
         <div className="Buttons">
             <div className="b">
-                <button className="project"><a>RESUME</a></button>
+                <button className="project"><a href="google.com">RESUME</a></button>
             </div>
 
             <div className="b">
