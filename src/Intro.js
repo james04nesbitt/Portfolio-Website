@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "./img/Resume.pdf"
 
 export default function Intro(){
     return(
@@ -9,7 +10,7 @@ export default function Intro(){
         
         <div className="Buttons">
             <div className="b">
-                <button className="project"><a href="google.com">RESUME</a></button>
+                <button className="project"><a href={resume} target="blank">RESUME</a></button>
             </div>
 
             <div className="b">
